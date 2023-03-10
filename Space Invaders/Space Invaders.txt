@@ -1,0 +1,79 @@
+#Score key : String
+
+
+#Play Button : String w/key binds
+print("Press )
+
+#Arena/borders : Turtle
+inport turtle
+s = turtle.getscreen()
+turtle.listen()
+
+#Score : Variable with a number
+
+
+#Lives : Variable with a number
+
+#User Spawn at beginning of levels : x y coordinates
+
+#User ship
+spaceship = turtle.Turtle()
+spaceship.color("red")
+
+
+#Enemy Spawn at beginning of levels : x y coordinates
+
+#Tell User how to move : String
+
+
+#Tell User how to shoot : String
+
+#User movement : Key binds
+s.onkeypress(w, "Up")
+s.onkeypress(a, "Left")
+s.onkeypress(s, "Down")
+s.onkeypress(d, "Right")
+
+#User shoot: Key binds
+def shoot ():
+    projectile = turtle.Turtle()
+    projectile.speed()
+    projectile.shape("square")
+    projectile.color("while")
+    projectile.penup()
+    projectile.goto(personagem.xcor(), personagem.ycor())
+    s.onkeypress(shoot, "Spacebar")
+
+#Current Level : Variable with a number
+
+#Enemy Counter : Variable with a number
+
+#When enemy counter = 0 new level starts : true/false statement
+
+#When current level = 3 and enemy counter = 0 Boss level: true false statement
+
+#When Boss is defeated win screen : String
+
+#If Lives = 0 defeat screen : String
+
+#On spawn at beginning of levels: Wait a moment until projectile hit box
+
+#On hit: box with disappear and projectile with despawn
+
+#Speed rate: same rate when traveling   
+ 
+#If projectile hits an enemy projectile: Both User projectile and enemy projectile disappear
+
+#Get points for each enemy projectiles hit
+
+#On spawn at beginning of levels, give hit box, give point value, give movement speed
+
+#Have set pattern of movement
+
+#Fire projectile on time with fire rate
+
+#When hit by enemy projectile: despawn animation and add value to score
+
+#On spawn: give movement speed, hit box, spawn point
+
+#On hit: give damage area, despawn animation
